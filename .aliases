@@ -43,3 +43,8 @@ alias interactivet='srun --partition=interactive -N 1 --gres=gpu:1 --mem:25000 -
 alias cuvl='srun --partition=cuvl -N 1 --gres=gpu:1 --mem:25000 --pty nash'
 alias port8950='jupyter notebook --ip=0.0.0.0 --port=8950'
 
+alias se8='ssh hq45@se3-compute08.cs.cornell.edu'
+alias se7='ssh hq45@se3-compute07.cs.cornell.edu'
+alias se6='ssh hq45@se3-compute06.cs.cornell.edu'
+alias se1='ssh hq45@se3-compute01.cs.cornell.edu'
+
